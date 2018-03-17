@@ -1,0 +1,153 @@
+body {
+  font-family: 'Buenard-Regular'; }
+
+#navColor {
+  background-color: #636363 !important;
+  border-bottom: 3px solid #29ebff !important; }
+
+.navbar-nav > .nav-item > .nav-link:hover {
+  color: rgba(41, 235, 255, 0.5) !important; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(41,235,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
+
+.navbar-brand {
+  color: rgba(41, 235, 255, 0.7) !important; }
+
+.navbar-brand:hover {
+  color: #29ebff !important; }
+
+#homeHeader {
+  background: url("../img/jumbo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  max-width: 100%;
+  max-height: 100%; }
+
+.bg-gray {
+  background-color: #f7f7f7; }
+
+.bg-image1 {
+  background: url("../img/CrossBorderManagement.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+.bg-image2 {
+  background: url("../img/IntegratedTechnologyPlatform.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+.bg-image3 {
+  background: url("../img/MultiVendorManagement.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+.bg-image4 {
+  background: url("../img/Warehousing.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+#aboutUsHeader {
+  height: 400px;
+  background: url("../img/aboutusheader.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%; }
+
+#servicesHeader {
+  height: 400px;
+  background: url("../img/services.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+.animateIcon1 {
+  position: absolute;
+  top: 80%;
+  left: 12%; }
+
+.animateIcon2 {
+  position: absolute;
+  left: 80%;
+  top: 60%; }
+
+.animateIcon3 {
+  position: absolute;
+  right: 55%;
+  top: 45%; }
+
+.animateIcon4 {
+  position: absolute;
+  top: 30%;
+  left: 80%; }
+
+.animateIcon5 {
+  position: absolute;
+  bottom: 50%; }
+
+#ebookingsHeader {
+  height: 400px;
+  background: url("../img/ebooking.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+#trackHeader {
+  height: 400px;
+  background: url("../img/track.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+#networkHeader {
+  height: 400px;
+  background: url("../img/network.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+#careersHeader {
+  height: 400px;
+  background: url("../img/careers.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+.text-underline {
+  border-bottom: 2px solid #29ebff; }
+
+#contactHeader {
+  height: 400px;
+  background: url("../img/contact.jpeg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative; }
+
+.contactPosition {
+  position: relative;
+  right: 13%; }
+
+.contactUs {
+  border-bottom: 2px solid #29ebff; }

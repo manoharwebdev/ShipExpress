@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-toggleable-md bg-primary" id="navColor">
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggle"><span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand text-white">ShipExpress</a>
+                        <div class="collapse navbar-collapse" id="navbarToggle">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link text-white px-3">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a href="aboutus.html" class="nav-link text-white px-3 dropdown-toggle" data-toggle="dropdown">About Us</a>
+                                    <div class="dropdown-menu" id="aboutUs">
+                                        <a href="aboutus.html#aboutUsHeader" class="dropdown-item">Vision</a>
+                                        <a href="aboutus.html#aboutUsOverview" class="dropdown-item">Overview</a>
+                                        <a href="aboutus.html#aboutUsCore" class="dropdown-item">Core Management</a>
+                                        <a href="aboutus.html#aboutUsSocial" class="dropdown-item">Social Responsibilities</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="services.html" class="nav-link text-white px-3">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="ebookings.html" class="nav-link text-white px-3">E-Booking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="track.html" class="nav-link text-white px-3">Track</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="network.html" class="nav-link text-white px-3">Network</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="careers.html" class="nav-link text-white px-3">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link text-white px-3">Contact Us</a>
+                                </li>
+                            </ul>        
+                        </div>    
+                    </nav>
+                </div>
+            </div>
+            <div class="row no-gutters align-items-center" id="contactHeader">
+                <div class="col-md-12 pl-4 text-info">
+                    <h1 class="pt-3 text-center contactPosition">Reach US</h1>
+                    <h5 class="text-center contactPosition">We're always there to help</h5>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 text-dark text-right border p-4">
+                    <h3 class="d-inline-block contactUs">Ship Express Headquarter:</h3>
+                    <address>
+                        #8, South Bay Road,
+                        Victors Creek
+                        Dallas, Texas 73301,
+                        USA
+                    </address>
+                    <span>Tel: 800-445-4723</span><br>
+                    <span>Fax: +800 2 9845468</span>
+                </div>
+                <div class="col-md-6 text-dark border p-4">
+                    <h3 class="d-inline-block contactUs">Ship Express Corporate:</h3>
+                    <address>
+                        #8, Winston Street,
+                        Bay Area    
+                        New York, New York City 10012,
+                        USA
+                    </address>
+                    <span>Tel: 800-445-4723</span><br>
+                    <span>Fax: +870 2 8841210</span>
+                </div>
+            </div>
+            <div class="row no-gutters border bg-light m-3">
+                <div class="col-md-3"></div>
+                <div class="col-md-9">
+                    <div class="d-block" id="map" style="width:800px;height:400px;background:yellow">
+                        
+                    </div>
+                </div>
+            </div>              
+            <div class="row no-gutters justify-content-center bg-primary">
+                <footer>
+                    <div class="col-md-12 text-center">
+                        <a href="https://www.facebook.com/" class="text-white" target="_blank"><i class="fa fa-facebook fa-2x p-4" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/" class="text-white" target="_blank"><i class="fa fa-twitter fa-2x p-4" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/" class="text-white" target="_blank"><i class="fa fa-linkedin fa-2x p-4" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/?hl=en" class="text-white" target="_blank"><i class="fa fa-instagram fa-2x p-4" aria-hidden="true"></i></a>
+                        <a href="https://plus.google.com/discover" class="text-white" target="_blank"><i class="fa fa-google-plus fa-2x p-4" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-12 text-white text-center">
+                        <p>&copy; Copyright ShipExpress Limited. All Rights Reserved - <a href="mailto:Customersupport@shipexpress.com" class="text-white"><i class="fa fa-envelope-o" aria-hidden="true"></i> Customersupport@shipexpress.com</a></p>
+                    </div>
+                </footer>
+            </div>
+                  
+   
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/navbar-fixed.js"></script>
+        <script>
+            function myMap() {
+              var mapCanvas = document.getElementById("map");
+              var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+              };
+              var map = new google.maps.Map(mapCanvas, mapOptions);
+            }
+        </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9zOaDww5u9e-x2MYBbEak_h-wwELbSGk&callback=myMap"></script>
+</html>
